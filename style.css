@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+    
+  
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+.bgimage{
+    background-image: url(hero_image.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.navigation{
+    background-color: #270082;
+    height: 8vh;
+    width: 100%;
+    color: #fff;
+    padding-top: 31px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1;
+    
+}
+.head{
+    position: relative;
+    left:-600px ;
+    font-size: 32px;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    position: relative;
+    bottom: 39px;
+    right: 150px;
+    
+}
+.head1{
+    color: #fff;
+    font-size: 99px;
+    position: relative;
+    top: 172px;
+    
+}
+.head2{
+    position: relative;
+    top: 300px;
+    color: #fff;
+}
+.head3{
+    color: #fff;
+    position: relative;
+    top: 350px;
+}
+.bg1{
+    padding-top: 50px;
+    background-color: #281152;
+    color: #fff;
+    background-position: center;
+    height: 70vh;
+
+
+}
+.head4{
+    position: relative;
+    top: 30px;
+    
+}
+.button{
+    position: relative;
+    top: 63px;
+    color: #fff;
+    background-color: #dc0000;
+    height: 5vh;
+    border: none;
+}
+.head5{
+    color: #fff;
+    position: relative;
+    top: 90px;
+}
+
+.button:hover {
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    color: #dc0000;
+}
+.img1{
+    position: relative;
+    top: 110px;
+
+}
+.head6{
+    color: black;
+    position: relative;
+    top: 500px;
+}
+.head7{
+    color: black;
+    position: relative;
+    top: 600px;
+   
+}
+.button1{
+    color: #fff;
+    background-color: darkblue;
+    height: 5vh;
+    border: none;
+}
+.button1:hover{
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    color: darkblue;
+
+}
+.bg2{
+    position: relative;
+    top: 680px;
+}
+.bg3{
+    background-image: url(video.png);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head8{
+    color: #fff;
+    position: relative;
+    top: 230px;
+}
+.head9{
+    color: #fff;
+    position: relative;
+    top: 280px;
+}
+.bg4{
+    position: relative;
+    top: 840px;
+    left: 180px;
+}
+.head10{
+    color:black;
+    position: relative;
+    bottom: 320px;
+    right: 210px;
+}
+.head11{
+    color:black;
+    position: relative;
+    bottom: 290px;
+    left: 510px;
+    font-size: 16px;
+    
+}
+.line{
+    width: 780px;
+    position: relative;
+    bottom: 260px;
+    left: 510px;
+}
+.button2{
+    color: #fff;
+    background-color: darkblue;
+    height: 5vh;
+    border: none;
+    position: relative;
+    bottom: 300px;
+    left: 510px;
+}
+.button2:hover{
+    background-color: #fff;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    color: darkblue;
+
+}
+.footer{
+    background-color: #1b0058;
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    top: 700px;
+    color: #fff;
+    
+}
+.footer h4{
+    color: #fff;
+    position: relative;
+    left: 165px;
+    top: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.footer1{
+    color: #fff;
+    position: relative;
+    top: 580px;
+    left: 165px;
+}
+.head12{
+
+color: #fff;
+    position: relative;
+    left: 500px;
+    top: 430px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+.footer2{
+    position: relative;
+    top: 450px;
+    left: 500px;
+    color: #fff;
+}
+.head13{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    position: relative;
+    top: 268px;
+    left: 890px;
+    color: #fff;
+    
+}
+.footer3{
+    position: relative;
+    top: 290px;
+    left: 890px;
+    color: #fff;
+
+}
+.head14{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    position: relative;
+    top: 135px;
+    left: 1250px;
+    color: #fff;
+
+}
+.footer4{
+    position: relative;
+    top:150px;
+    left: 1250px;
+    color: #fff;
+}
+.footer5{
+    background-color: #270082;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    top: 160px;
+
+
+}
+.footer5 p{
+    color: #fff;
+    position: relative;
+    top: 25px;
+}
+@media screen and (max-width:450px){
+    .navigation{
+        width:  450px;
+        font-size: 2px;
+
+
+    }
+    .ul{
+        font-size: 10px;
+    position: relative;
+    top: -5px;
+    left: -4px;
+    }
+    .head{
+        position: relative;
+        left: -143px;
+    }
+    .bg1{
+        position: relative;
+        bottom: 1px;
+    }
+    .img1 img{
+        width: 100%;
+        height: 50vh;
+       
+    }
+    .bg2 img{
+        width: 100%;
+        height: 50vh;
+    }
+    .bg4 img{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        right: 180px;
+        bottom: 71px;
+    }
+    .head10{
+        position: relative;
+        bottom: 418px;
+        left: -168px;
+    }
+    
+    .head11{
+        position: relative;
+        left: -176px;
+        top: -76px;
+    }
+    .line{
+        position: relative;
+        top: -65px;
+    left: -177px;
+    width: 426px;
+    
+    }
+    .footer{
+        position: relative;
+        top: 750px;
+        width: 100%;
+        height: 65vh;
+    }
+    .footer1{
+        position: relative;
+        top: 388px;
+        left: 43px;
+        
+    }
+    .footer h4{
+        position: relative;
+        left: 42px;
+        top: 2px;
+    }
+    .head12{
+        position: relative;
+        left: 239px;
+        top: 234px;
+
+    }
+    .footer5{
+        position: relative;
+        top:210px;
+    }
+    .footer2{
+        position: relative;
+        top: 252px;
+    left: 238px;
+    }
+    .head13{
+        position: relative;
+        left: 39px;
+    }
+    .footer3{
+        position: relative;
+        left: 36px;
+    }
+    .head14{
+        position: relative;
+        left: 237px;
+    }
+    .footer4{
+        position: relative;
+        left: 239px;
+    top: 156px;
+    }
+    .button2{
+        position: relative;
+        top: -107px;
+    left: 2px;
+}
+    
+}
+
+
+   
+
+
+
+
+
+
+
+
